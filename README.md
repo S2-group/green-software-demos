@@ -6,8 +6,6 @@ Available demos:
 - Fibonacci
 - Large Language Models
 
-Contact point: [Ivano Malavolta](https://www.ivanomalavolta.com)
-
 ## Fibonacci
 
 1. Move into the `fibonacci` folder 
@@ -21,13 +19,14 @@ Contact point: [Ivano Malavolta](https://www.ivanomalavolta.com)
   - `fibonacci_mem.py` is an enhanced implementation of the recursive algorithm with [memoization](https://en.wikipedia.org/wiki/Memoization)
 
     In terms of execution time (and also energy consumption), `fibonacci_mem.py` < `fibonacci_rec.py` < `fibonacci_iter.py` (which is extremely slow).
+    Thanks to [Mandy Wong](https://github.com/mandymay138) for the implementation of the [three Fibonacci algorithms]((https://realpython.com/fibonacci-sequence-python/)) used in this demo! 
 
 3. Start the [macmon](https://github.com/vladkens/macmon) energy profiler
    ```
    macmon
    ```
-   Any other profiler works as well, e.g., powermetrics.
-   Here, discuss also the main metrics supported by the energy profiler. In the case of macmon, it is important to describe the *Total power* metric and how the power is consumed differently by the CPU and the GPU.  
+   Any other profiler works as well, e.g., _powermetrics_.
+   Here, discuss also the main metrics supported by the energy profiler. In the case of macmon, it is important to describe the __Total power__ metric and how the power is consumed differently by the CPU and the GPU.  
 
 5. Go into split view and show two terminal windows, in the first one, you continue showing the macmon dashboard, whereas in the second one you will execute, one by one, the three Python scripts using a command like:
    ```
@@ -37,3 +36,5 @@ Contact point: [Ivano Malavolta](https://www.ivanomalavolta.com)
 
 ## Large Language Models
 
+## Contact point
+[Ivano Malavolta](https://www.ivanomalavolta.com)
