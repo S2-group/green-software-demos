@@ -3,8 +3,8 @@ Tools and scripts for demonstrating the energy consumption of software.
 All demos have been tested on a macOS machine.
 
 Available demos:
-- Fibonacci
-- Large Language Models
+- [Fibonacci](#fibonacci)
+- [Large Language Models](#large-language-models)
 
 ## Fibonacci
 
