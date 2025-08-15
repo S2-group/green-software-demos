@@ -1,4 +1,4 @@
-# green-software-demos-
+# green-software-demos
 Tools and scripts for demonstrating the energy consumption of software.
 All demos have been tested on a macOS machine.
 
@@ -19,6 +19,7 @@ Available demos:
   - `fibonacci_mem.py` is an enhanced implementation of the recursive algorithm with [memoization](https://en.wikipedia.org/wiki/Memoization)
 
     In terms of execution time (and also energy consumption), `fibonacci_mem.py` < `fibonacci_rec.py` < `fibonacci_iter.py` (which is extremely slow).
+
     Thanks to [Mandy Wong](https://github.com/mandymay138) for the implementation of the [three Fibonacci algorithms]((https://realpython.com/fibonacci-sequence-python/)) used in this demo! 
 
 3. Start the [macmon](https://github.com/vladkens/macmon) energy profiler
