@@ -13,7 +13,7 @@ Available demos:
    cd ./fibonacci
    ```
 
-2. Show and discuss the contents of the three scripts to the audience using your preferred Python editor
+2. Show and discuss the contents of the three scripts to the audience using your preferred Python editor (all scripts compute and print the first 10,000 numbers of the Fibonacci sequence):
   - `fibonacci_rec.py` is a by-the-book recursive algorithm for computing the Fibonacci sequence of a given number  
   - `fibonacci_iter.py` is a basic iterative algorithm for computing the Fibonacci sequence of a given number
   - `fibonacci_mem.py` is an enhanced implementation of the recursive algorithm with [memoization](https://en.wikipedia.org/wiki/Memoization)
